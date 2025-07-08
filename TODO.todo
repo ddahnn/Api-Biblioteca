@@ -1,0 +1,50 @@
+# ✅ TODO - API Biblioteca (FastAPI + PostgreSQL)
+
+===========================
+✔️ Etapas Concluídas
+===========================
+
+✅ Conexão com banco PostgreSQL via SQLAlchemy (config/database.py)
+✅ Modelos criados: Autor, Livro, Cliente, Emprestimo
+✅ Schemas Pydantic implementados para validação
+✅ CRUD completo para:
+   - Autores
+   - Livros
+   - Clientes
+✅ Funcionalidade de negócio:
+   - Empréstimos com regras:
+     ▪ Cliente pode ter no máximo 3 livros ativos
+     ▪ Só é possível emprestar livro disponível
+     ▪ Geração de data prevista de devolução (7 dias)
+     ▪ Devolução marca o livro como disponível novamente
+     ▪ Cálculo de atraso na devolução
+✅ Listagem de:
+   - Livros emprestados por cliente
+   - Todos empréstimos ativos
+✅ Tratamento de erros com HTTPException
+✅ Documentação automática no Swagger (FastAPI)
+✅ Testes funcionais via Insomnia
+✅ Testes automatizados com pytest:
+   - Autor (sucesso e erro)
+   - Livro (sucesso e erro com FK inválida)
+   - Empréstimo (retirada e devolução)
+✅ Versionamento com Git + GitHub
+✅ README.md com instruções
+✅ Estrutura de pastas organizada e separada por camadas:
+   - config, modules, schemas, services, routes, tests
+
+===========================
+🔧 Melhorias futuras (opcional)
+===========================
+
+🔲 Adicionar autenticação com JWT (login e proteção de rotas)
+🔲 Subir a API em um servidor (Heroku, Render, Railway, etc.)
+🔲 Refatorar `.dict()` para `.model_dump()` (Pydantic 2)
+🔲 Melhorar cobertura de testes com mais cenários (ex: erros de devolução duplicada)
+🔲 Adicionar testes automatizados para rota de cliente
+🔲 Criar comandos de script para setup automático
+
+===========================
+📅 Status Final: PRONTO PARA ENTREGA ✔️
+===========================
+

@@ -1,0 +1,31 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cache do pytest
+.pytest_cache/
+
+# Arquivos do VSCode
+.vscode/
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Backup de editores
+*.bak
+*.orig
+
+# Banco local (se tiver sqlite, por exemplo)
+*.db
+*.sqlite3
+
+# Testes exportados
+teste_insomnia/
