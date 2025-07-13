@@ -75,7 +75,4 @@ pytest tests/
 
     Daniel (Dahn)
 
-    GitHub: github.com/ddahnn
-
-
 ---
