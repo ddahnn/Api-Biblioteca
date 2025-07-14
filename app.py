@@ -1,9 +1,4 @@
 from fastapi import FastAPI # type: ignore
-from config.database import Base, engine
-from routes import autor_routes, livro_routes, cliente_routes, emprestimo_routes
-
-
-from fastapi import FastAPI # type: ignore
 from fastapi.middleware.cors import CORSMiddleware # type: ignore
 from config.database import Base, engine
 from routes import autor_routes, livro_routes, cliente_routes, emprestimo_routes
